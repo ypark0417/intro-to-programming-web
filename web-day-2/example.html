@@ -1,0 +1,109 @@
+<!-- Last Week Recap
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>소금빵</h1>
+    <p>먹고싶다 <br> 소금빵</p>
+    <ul>
+        <li>밀크티랑</li>
+        <li>밀크티랑</li>
+        <li>밀크티랑</li>
+        <li>밀크티랑</li>
+    </ul>
+    <hr>
+    <ol>
+        <li>말차라떼</li>
+        <li>펌킨스파이스라떼</li>
+        <li>흑당버블티</li>
+    </ol>
+
+    <a href="https://www.instagram.com/milomil_/">밀로밀</a>
+    <br><br>
+
+    <img src="assets/sogum.jpg" width="500" height="500">
+    <button>먹고싶으면 누르기</button>
+
+</body>
+</html> -->
+
+
+<!-- Inline:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="background-color:brown; color:beige;">Big Text</h1>                                       
+    <p style="color:cadetblue;">This is some text</p>
+</body>
+</html> -->
+
+
+<!-- Internal:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: cornsilk;
+            color:burlywood;
+        }
+        p {
+            background-color:floralwhite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Big Text</h1>                                       
+    <p>This is some text</p>
+</body>
+</html> -->
+
+
+External:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <h1>Big Text</h1>                                       
+    <p>This is some text</p>
+</body>
+</html>
+
+
+CSS: Cascading Style Sheets
+
+3 Considerations:
+1. What properties can we change?
+    - border, color (text color), background color, font-family, font size
+    - "List of properties" 찾아보면 나옴
+    
+2. How do we add to HTML?
+    - Inline: in the opening tag of the element
+        - bad 'cause you need to rpeat everytime.
+    - Internal: In the head
+        - body {} 하면 the entire document. not just the paragraph
+    - External: Seperate CSS file
+        - lets you link to the CSS file to HTML, so that one edit in the CSS file applies to all the webpage that has a relationship (rel) to it.
+
+3. Which HTML element will it apply to?
