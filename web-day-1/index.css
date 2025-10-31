@@ -1,0 +1,27 @@
+body {
+    background-color: cornsilk;
+}
+h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:brown;
+}
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color:chocolate;
+    background-color:ivory;
+}
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: darkslategray;
+}
+p {
+    font-family:'Courier New', Courier, monospace;
+    color:darkslategray;
+}
+img {
+    border: 2px solid black;
+}
