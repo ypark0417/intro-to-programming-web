@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>drumset</title>
+</head>
+<body>
+    <img id="crash" src="images/crash.png" width="194" height="441">
+    <img id="floorTom1" src="images/tom3.png" width="152" height="201">
+    <img id="tom1" src="images/tom1.png" width="166" height="150">
+    <img id="kick" src="images/kick.png" width="269" height="269">
+    <img id="snare" src="images/snare.png" width="133" height="183">
+    <img id="tom2" src="images/tom2.png" width="166" height="150">
+    <img id="floorTom2" src="images/tom4.png" width="152" height="201">
+
+    <script>
+        let kickElement = document.getElementById("kick");
+        kickElement.addEventListener('click', playKick);
+        function playKick() {
+            let importedKick = new Audio("sounds/kick-bass.mp3");
+            importedKick.play()
+        }
+        
+        let snareElement = document.getElementById("snare");
+        snareElement.addEventListener('click', playSnare);
+        function playSnare() {
+            let importedSnare = new Audio("sounds/snare.mp3");
+            importedSnare.play()
+        }
+        
+        let tom1Element = document.getElementById("tom1");
+        tom1Element.addEventListener('click', playTom1);
+        function playTom1() {
+            let importedTom1 = new Audio("sounds/tom-1.mp3");
+            importedTom1.play()
+        }
+
+        let tom2Element = document.getElementById("tom2");
+        tom2Element.addEventListener('click', playTom2);
+        function playTom2() {
+            let importedTom2 = new Audio("sounds/tom-2.mp3");
+            importedTom2.play()
+        }
+
+        let floorTom1Element = document.getElementById("floorTom1");
+        floorTom1Element.addEventListener('click', playfloorTom1);
+        function playfloorTom1() {
+            let importedFloorTom1 = new Audio("sounds/tom-3.mp3");
+            importedFloorTom1.play()
+        }
+
+        let floorTom2Element = document.getElementById("floorTom2");
+        floorTom2Element.addEventListener('click', playfloorTom2);
+        function playfloorTom2() {
+            let importedFloorTom2 = new Audio("sounds/tom-4.mp3");
+            importedFloorTom2.play()
+        }
+
+        let crashElement = document.getElementById("crash");
+        crashElement.addEventListener('click', playCrash);
+        function playCrash() {
+            let importedCrash = new Audio("sounds/crash.mp3");
+            importedCrash.play()
+        }
+    </script>
+</body>
+</html>

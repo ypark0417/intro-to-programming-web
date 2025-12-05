@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red {
+            background-color: red;
+        }
+    </style>
+</head>
+<body  id="html Body">
+    <h1>Title</h1>
+    <ul>
+        <li id="song">ha</li>
+        <li id="happy">ha</li>
+        <li>ha</li>
+        <li>ha</li>
+    </ul>
+
+    <script>
+        let introP = document.getElementById("html Body");
+        introP.innerText = "Now this says something else";
+        introP.style.backgroundColor = "blue";
+
+        let songElement = document.getElementById("song");
+        songElement.addEventListener('click', playSong);
+        function playSong()  {
+            let  importedSong = new Audio("sounds/song.mp3");
+            importedSong.play();
+        }
+
+        let happyElement = document.get.getElementById("happy");
+        happyElement.addEventListener('click', playHappy);
+        function playHappy() {
+            let importedHappy = new Audio("sounds/happy.mp3");
+            importedHappy.play()
+        }
+    </script>
+</body>
+</html>

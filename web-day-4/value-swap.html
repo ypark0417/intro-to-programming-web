@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Swap</title>
+</head>
+<body>
+    <p id="outputA">Initial value of 'a' will be displayed here.</p>
+    <p id="outputB">Initial value of 'b' will be displayed here.</p>
+    
+    <script>
+        function variableSwap() {
+            let a = "2";
+            let b = "4";
+
+            // Do not change code above this line!
+
+
+            let c = b;
+            b = a;
+            a = c;
+            
+
+            // Do not change code below this line!
+
+
+            document.getElementById("outputA").textContent = "a is: " + a;
+            document.getElementById("outputB").textContent =  "b is: " + b;
+        }
+
+        variableSwap();
+    </script>
+    
+</body>
+</html>

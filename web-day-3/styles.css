@@ -1,0 +1,36 @@
+body {
+    font-family: Inter, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+ol {
+    padding-left: 100px;
+    line-height: 2;
+}
+
+div {
+    background-color: lightblue;
+    border: red solid 2px;
+}
+
+
+.startsWithD {
+    background-color: purple;
+}
+
+.startsWithP {
+    background-color: yellow;
+}
+
+#titleOfPage {
+    color: red;
+}
+
+
+
+*  {
+    background-color: red;
+}
